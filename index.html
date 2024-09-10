@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuentra mi disculpa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Encuentra mi disculpa, Fiorella</h1>
+        <p>Haz clic en los elementos para descubrir el mensaje oculto.</p>
+        
+        <div class="grid">
+            <div class="grid-item" onclick="wrongChoice()">🌸</div>
+            <div class="grid-item" onclick="wrongChoice()">🍀</div>
+            <div class="grid-item" onclick="rightChoice()">🌼</div> <!-- Este es el correcto -->
+            <div class="grid-item" onclick="wrongChoice()">🌷</div>
+            <div class="grid-item" onclick="wrongChoice()">🌻</div>
+            <div class="grid-item" onclick="wrongChoice()">🍁</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

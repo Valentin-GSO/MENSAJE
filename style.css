@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.grid-item {
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.grid-item:hover {
+    transform: scale(1.2);
+}
